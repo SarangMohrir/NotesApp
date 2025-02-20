@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotesApp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {},
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-800 h-screen flex items-center justify-center">
+    <div class="card flex flex-col w-96 p-4 bg-violet-100  shadow-lg shadow-violet-600/70 hover:shadow-2xl hover:shadow-violet-700/80 transition-shadow duration-300 rounded-lg">
+        <h2 class="text-xl font-semibold text-center mb-3">Add your notes here</h2>
+        <ul>
+            <li><input id="note-input" type="text" placeholder="New Notes" 
+                class="flex-1 px-2 py-1 my-2 rounded bg-red-200 border border-gray-500 text-black outline-none">
+            <button id = "add-note-btn" class="bg-blue-500 px-3 py-1 rounded text-white hover:bg-blue-600">Submit</button></li>
+        </ul>
+    <ul id = "notes-list">
+
+    </ul>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
