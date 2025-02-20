@@ -46,5 +46,3 @@ This is a fun little project built using **HTML, CSS, and JavaScript** with **DO
 💡 Got ideas or feedback? Feel free to contribute! 🚀  
 
 ---
-
-This version makes the README more engaging and user-friendly. Let me know if you want any tweaks! 😊
